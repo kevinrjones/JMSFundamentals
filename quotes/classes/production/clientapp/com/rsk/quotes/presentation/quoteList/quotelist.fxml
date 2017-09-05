@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="752.0" styleClass="pane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rsk.quotes.presentation.quoteList.QuotelistPresenter">
+   <children>
+      <TableView fx:id="quotesTable" maxWidth="1.7976931348623157E308" styleClass="table" VBox.vgrow="ALWAYS">
+         <columns>
+            <TableColumn fx:id="quotesCompanyColumn" prefWidth="166.0" text="Company" />
+            <TableColumn fx:id="quotesPriceColumn" prefWidth="152.85711669921875" text="Price" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</VBox>

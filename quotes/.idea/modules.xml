@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clientapp/clientapp.iml" filepath="$PROJECT_DIR$/.idea/modules/clientapp/clientapp.iml" group="clientapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clientapp/clientapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/clientapp/clientapp_main.iml" group="clientapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clientapp/clientapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/clientapp/clientapp_test.iml" group="clientapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quotes.iml" filepath="$PROJECT_DIR$/.idea/modules/quotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quotes_main.iml" filepath="$PROJECT_DIR$/.idea/modules/quotes_main.iml" group="quotes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quotes_test.iml" filepath="$PROJECT_DIR$/.idea/modules/quotes_test.iml" group="quotes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteservice/quoteservice.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteservice/quoteservice.iml" group="quoteservice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteservice/quoteservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteservice/quoteservice_main.iml" group="quoteservice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quoteservice/quoteservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/quoteservice/quoteservice_test.iml" group="quoteservice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverapp/serverapp.iml" filepath="$PROJECT_DIR$/.idea/modules/serverapp/serverapp.iml" group="serverapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverapp/serverapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/serverapp/serverapp_main.iml" group="serverapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverapp/serverapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/serverapp/serverapp_test.iml" group="serverapp" />
+    </modules>
+  </component>
+</project>

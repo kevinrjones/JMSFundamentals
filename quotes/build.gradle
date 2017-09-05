@@ -1,0 +1,53 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+
+    }
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    apply plugin: 'eclipse-wtp'
+    apply plugin: 'idea'
+
+    version = '0.1-SNAPSHOT'
+
+    repositories {
+        jcenter()
+    }
+
+    sourceSets {
+        main {
+            resources.srcDirs = ["src/main/java", "src/main/resources"]
+        }
+    }
+
+    dependencies {
+        compile 'com.fasterxml.jackson.core:jackson-core:2.8.8'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.8.8'
+    }
+}
+
+project(':clientapp') {
+    dependencies {
+        compile project(':quoteservice')
+        compile 'com.airhacks:afterburner.fx:1.7.0'
+    }
+}
+
+project(':serverapp') {
+    dependencies {
+        compile project(':quoteservice')
+        compile 'com.airhacks:afterburner.fx:1.7.0'
+    }
+}
+
+project(':quoteservice') {
+    dependencies {
+        compile files('libraries/lib/gf-client.jar', 'libraries/lib/imqjmsra.jar')
+        compile 'javax.jms:javax.jms-api:2.0.1'
+    }
+}

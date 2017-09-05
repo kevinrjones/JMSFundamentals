@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="300" prefHeight="281.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rsk.quotes.presentation.main.MainPresenter">
+   <children>
+      <AnchorPane fx:id="jndiInput" styleClass="panel" />
+      <AnchorPane fx:id="messagesOutput" prefHeight="200.0" prefWidth="600.0" styleClass="panel" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>

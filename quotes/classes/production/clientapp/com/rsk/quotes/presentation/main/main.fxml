@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rsk.quotes.presentation.main.MainPresenter">
+   <children>
+      <AnchorPane fx:id="jndiInput" prefHeight="100.0" prefWidth="200.0" styleClass="panel" />
+      <AnchorPane fx:id="userDetails" prefHeight="100.0" prefWidth="200.0" />
+      <AnchorPane fx:id="carDetails" prefHeight="100.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="200.0" prefWidth="100.0">
+         <children>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="quoteList" prefHeight="100.0" prefWidth="200.0" />
+   </children>
+</VBox>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="QuotesMDB:EJB exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/QuotesMDB_EJB_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="QuotesMDB/ejb/EJB" />
+      <element id="module-output" name="QuotesMDB" />
+    </root>
+  </artifact>
+</component>
